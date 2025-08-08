@@ -6,7 +6,7 @@
 sed -i 's/192.168.1.1/192.168.8.1/g' package/base-files/files/bin/config_generate
 
 # 修改主机名称
-sed -i 's/ImmortalWrt/Mi-R3G/g' package/base-files/files/bin/config_generate
+sed -i 's/ImmortalWrt/MMDVM/g' package/base-files/files/bin/config_generate
 
 # 修改默认wifi名称ssid为MIR3G
 sed -i 's/ssid=ImmortalWrt/ssid=MMDVM_4G/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
