@@ -1,0 +1,28 @@
+# Put your custom commands here that should be executed once
+# the system init finished. By default this file does nothing.
+echo "0x19d2 0x0532" > /sys/bus/usb-serial/drivers/generic/new_id
+
+:start
+ send "AT!RESET^m"
+EOF
+
+sleep 10
+gcom -d /dev/ttyUSB0 -s /proc/self/fd/0 << EOF
+opengt
+ set com 115200n81
+ set comecho off
+ set senddelay 0.02
+ waitquiet 0.2 0.2
+ flash 0.1
+
+:start
+ send "AT+CFUN=1^m"
+ waitfor 3 "OK"
+ send 'AT+CGDCONT=1,"IPV4V6"^m'
+ waitfor 10 "OK"
+ send 'AT+CGACT=1,1^m'
+ waitfor 10 'OK'
+ send 'AT+ZGACT=1,1^m'
+ waitfor 10 'OK'
+EOF
+exit 0
