@@ -19,7 +19,5 @@
 #sed -i '$a src-git devtools https://github.com/fndsz/devtools-feeds' feeds.conf.default
 #sed -i '$a src-git mmdvmpatch https://github.com/fndsz/mmdvmpatch' feeds.conf.default
 git clone https://github.com/fndsz/mmdvm-op.git package/mmdvm/mmdvm-openwrt
-#git clone https://github.com/fndsz/mmdvmpatch.git package/mmdvm/mmdvm-openwrt
 #git clone https://github.com/fndsz/luci-app-oled.git package/lean/luci-app-oled
-#git clone https://github.com/siwind/luci-app-wolplus.git package/lean/luci-app-wolplus
 git clone https://github.com/fndsz/devtools-feeds.git package/lean/devtools-feeds
