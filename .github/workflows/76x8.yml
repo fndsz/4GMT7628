@@ -9,7 +9,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build 4G MMDVM
+name: 4G MMDVM
 
 on:
   repository_dispatch:
