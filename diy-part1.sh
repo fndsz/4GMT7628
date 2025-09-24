@@ -14,7 +14,7 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+#sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 #sed -i '$a src-git mmdvm https://github.com/fndsz/mmdvm-op' feeds.conf.default
 #sed -i '$a src-git mmdvm https://github.com/fndsz/mmdvm-openwrt' feeds.conf.default
 #sed -i '$a src-git devtools https://github.com/fndsz/devtools-feeds' feeds.conf.default
