@@ -30,6 +30,8 @@ config interface 'wan'
 config interface 'wan6'
 	option device 'eth0.2'
 	option proto 'dhcpv6'
+	option reqaddress 'try'
+	option reqprefix 'auto'
 
 config switch
 	option name 'switch0'
@@ -57,4 +59,12 @@ config interface 'trm_wwan'
 config interface 'trm_wwan6'
 	option device '@trm_wwan'
 	option proto 'dhcpv6'
+	option reqaddress 'try'
+	option reqprefix 'auto'
+
+config interface 'LTE6'
+	option proto 'dhcpv6'
+	option device '@LTE'
+	option reqaddress 'try'
+	option reqprefix 'auto'
 
