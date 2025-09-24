@@ -28,6 +28,7 @@ config zone
 	list network 'LTE'
 	list network 'trm_wwan'
 	list network 'trm_wwan6'
+	list network 'LTE6'
 
 config forwarding
 	option src 'lan'
