@@ -19,5 +19,3 @@ sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.
 #sed -i '$a src-git mmdvm https://github.com/fndsz/mmdvm-openwrt' feeds.conf.default
 #sed -i '$a src-git devtools https://github.com/fndsz/devtools-feeds' feeds.conf.default
 git clone https://github.com/fndsz/mmdvm-op.git package/mmdvm
-#git clone https://github.com/fndsz/luci-app-oled.git package/lean/luci-app-oled
-#git clone https://github.com/fndsz/devtools-feeds.git package/lean/devtools-feeds
