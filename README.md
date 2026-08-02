@@ -1,2 +1,2 @@
 # 使用说明
-MMDVM_OPENWRT插件编译
+MMDVM_4G_OPENWRT 编译
