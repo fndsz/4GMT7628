@@ -163,7 +163,7 @@ jobs:
       id: tag
       if: env.UPLOAD_RELEASE == 'true' && !cancelled()
       run: |
-        echo "release_tag=$(date +"%Y.%m.%d-%H%M-immortalwrt24.10-6.6-cmcc_rax3000m-237")" >> $GITHUB_OUTPUT
+        echo "release_tag=$(date +"%Y.%m.%d-%H%M-MMDVM-4G-FNDSZ")" >> $GITHUB_OUTPUT
         touch release.txt
         echo "MMDVM_4G 路由固件" >> release.txt
         echo "后台：192.168.8.1" >> release.txt
