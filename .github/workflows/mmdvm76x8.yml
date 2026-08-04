@@ -10,6 +10,9 @@
 
 name: Build MMDVM 4G
 
+permissions:
+  actions: write     
+  contents: read      
 on:
   repository_dispatch:
   workflow_dispatch:
@@ -36,10 +39,6 @@ env:
 jobs:
   build:
     runs-on: ubuntu-22.04
-
-permissions:
-  actions: write      # 删除 workflow runs 必需
-  contents: read      # 读仓库元数据
 
     steps:
     - name: Checkout
