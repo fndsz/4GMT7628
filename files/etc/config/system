@@ -42,8 +42,8 @@ config led
 	option name 'WIFI'
 	option sysfs 'Wifi:status'
 	option trigger 'netdev'
-	option dev 'phy0-ap0'
 	list mode 'link'
 	list mode 'tx'
 	list mode 'rx'
+	option dev 'wlan0-1'
 
