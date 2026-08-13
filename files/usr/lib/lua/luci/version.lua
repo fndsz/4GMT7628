@@ -16,5 +16,5 @@ else
 	distversion = "Development Snapshot"
 end
 
-luciname    = "Fndsz_MMDVM_Router"
+luciname    = "BG7RIQ Fndsz v1.0"
 
