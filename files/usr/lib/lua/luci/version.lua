@@ -16,5 +16,5 @@ else
 	distversion = "Development Snapshot"
 end
 
-luciname    = "BG7RIQ Fndsz v1.0"
+luciname    = "BG7RIQ Fndsz"
 
