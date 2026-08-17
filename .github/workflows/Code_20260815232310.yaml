@@ -20,7 +20,7 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/immortalwrt/immortalwrt
+  REPO_URL: https://github.com/fndsz/immortalwrt
   REPO_BRANCH: openwrt-21.02
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: 2102.config
@@ -34,7 +34,7 @@ env:
   TZ: Asia/Shanghai
   # ===== 新增：mmdvm 补丁源 =====
   MMDVM_PATCH_URL: https://raw.githubusercontent.com/fndsz/mmdvmpatch/main/mmdvm.patch
-  MMDVM_FEED_URL: https://github.com/fndsz/mmdvm-openwrt.git
+  MMDVM_FEED_URL: https://github.com/fndsz/mmdvm-op.git
 
 jobs:
   build:
