@@ -12,7 +12,7 @@
 #         + fndsz/mmdvm-op + fndsz/mmdvmpatch
 # ============================================================
 
-name:  mt7628_mmdvm
+name:  mt7628_fixed
 
 on:
   repository_dispatch:
