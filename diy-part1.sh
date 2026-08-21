@@ -15,3 +15,5 @@
 
 # Add a feed source
 git clone https://github.com/fndsz/mmdvm-op.git package/mmdvm/mmdvm-openwrt
+
+git clone https://github.com/lazywalker/devtools-feeds.git package/led/devtools
