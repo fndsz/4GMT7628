@@ -37,10 +37,10 @@ jobs:
   build:
     runs-on: ubuntu-22.04
 
-  permissions:
-      actions: write      
-      contents: write     
-      attestations: write 
+    permissions:
+      actions: write      # 允许删除 workflow runs
+      contents: write     # 允许创建 Release 和删除旧 Release
+      attestations: write # upload-artifact 需要
 
     steps:
     - name: Checkout
