@@ -33,13 +33,14 @@ env:
   UPLOAD_RELEASE: false
   TZ: Asia/Shanghai
 
-  permissions:
-  actions: write
-  contents: read
-
 jobs:
   build:
     runs-on: ubuntu-22.04
+
+  permissions:
+      actions: write      
+      contents: write     
+      attestations: write 
 
     steps:
     - name: Checkout
