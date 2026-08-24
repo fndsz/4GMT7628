@@ -17,3 +17,7 @@
 git clone https://github.com/fndsz/mmdvm-op.git package/mmdvm/mmdvm-openwrt
 
 git clone https://github.com/lazywalker/devtools-feeds.git package/led/devtools
+
+git clone https://github.com/fndsz/luci-app-oled package/luci-app-oled
+
+
