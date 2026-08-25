@@ -1,3 +1,4 @@
+
 config interface 'loopback'
 	option device 'lo'
 	option proto 'static'
