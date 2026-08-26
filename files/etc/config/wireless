@@ -15,7 +15,8 @@ config wifi-iface 'default_radio0'
 	option device 'radio0'
 	option network 'lan'
 	option mode 'ap'
-	option ssid 'MMDVM_4G'
+	option ssid 'Ostar
+'
 	option encryption 'psk-mixed'
 	option key 'mmdvm@mt7628'
 
