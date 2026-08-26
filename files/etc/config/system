@@ -25,20 +25,6 @@ config imm_init
 	option opkg_mirror 'https://mirrors.vsean.net/openwrt'
 
 config led
-	option name '4G'
-	option sysfs '4G:status'
-	option trigger 'netdev'
-	option dev 'eth1'
-	list mode 'link'
-	list mode 'tx'
-	list mode 'rx'
-
-config led
-	option name 'TF'
-	option sysfs 'TF:status'
-	option trigger 'default-on'
-
-config led
 	option name 'WIFI'
 	option sysfs 'Wifi:status'
 	option trigger 'netdev'
@@ -46,4 +32,3 @@ config led
 	list mode 'tx'
 	list mode 'rx'
 	option dev 'wlan0-1'
-
